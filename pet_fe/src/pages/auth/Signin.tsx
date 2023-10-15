@@ -47,12 +47,15 @@ const SignIn = () => {
               {...register("password")}
             />
 
+<Link to="/sign-in">
             <button
               className="bg-orange-600 text-white rounded w-[90%] h-[40px] mt-8  "
               type="submit"
             >
               Sign in
             </button>
+  
+              </Link>
 
             <br />
             <br />

@@ -55,13 +55,15 @@ const Register = () => {
               {...register("password")}
             />
 
+<Link to="/sign-in">
             <button
               type="submit"
               className="bg-orange-600 text-white rounded w-[90%] h-[40px] mt-8  "
             >
               Register
             </button>
-
+    
+              </Link>
             <br />
             <br />
             <hr />
